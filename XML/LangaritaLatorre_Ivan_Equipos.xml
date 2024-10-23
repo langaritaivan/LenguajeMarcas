@@ -1,0 +1,50 @@
+<equipos>
+    <eqipo1>
+        <informacion_general>
+            <nombre>Real Madrid</nombre>
+            <ciudad>Madrid</ciudad>
+            <entrenador>Carlo Ancelotti</entrenador>
+        </informacion_general>
+        <jugadores_importantes>
+            <jugador1>
+                <nombre>Antonio Rüdiger</nombre>
+                <posicion>Defensa Central</posicion>
+                <nacionalidad>Aleman</nacionalidad>
+            </jugador1>
+            <jugador2>
+                <nombre>Éder Militão</nombre>
+                <posicion>Defensa Central</posicion>
+                <nacionalidad>Brasilelo</nacionalidad>
+            </jugador2>
+            <jugador3>
+                <nombre>Andriy Lunin</nombre>
+                <posicion>Portero</posicion>
+                <nacionalidad>Ucraniano</nacionalidad>
+            </jugador3>
+        </jugadores_importantes>
+    </eqipo1>
+    <eqipo2>
+        <informacion_general>
+            <nombre>Real Zaragoza</nombre>
+            <ciudad>Zaragoza</ciudad>
+            <entrenador>Victor Fernandez</entrenador>
+        </informacion_general>
+        <jugadores_importantes>
+            <jugador1>
+                <nombre>Toni Moya</nombre>
+                <posicion>Medio Centro</posicion>
+                <nacionalidad>Español</nacionalidad>
+            </jugador1>
+            <jugador2>
+                <nombre>Keidi Bare.</nombre>
+                <posicion>Centro Campista</posicion>
+                <nacionalidad>Albanes</nacionalidad>
+            </jugador2>
+            <jugador3>
+                <nombre>Bermejo</nombre>
+                <posicion>Delantero</posicion>
+                <nacionalidad>Español</nacionalidad>
+            </jugador3>
+        </jugadores_importantes>
+    </eqipo2>
+</equipos>

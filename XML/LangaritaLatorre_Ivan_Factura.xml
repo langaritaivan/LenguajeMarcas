@@ -1,0 +1,29 @@
+<factura>
+    <datos_del_cliente>
+        <noombre>Biblioteca Perez</noombre>
+        <cif>33311555A</cif>
+        <ndefactura>27</ndefactura>
+        <fecha>18/12/2017</fecha>
+    </datos_del_cliente>
+    <datos_de_compra>
+        <articulos>
+            <libroanaliticaweb>
+                <cantidad>1</cantidad>
+                <codigo>AW7</codigo>
+                <precio_unidad>25,12</precio_unidad>
+                <precio_total>25,12</precio_total>
+            </libroanaliticaweb>
+            <cursode_html>
+                <cantidad>2</cantidad>
+                <codigo>CP5</codigo>
+                <precio_unidad>30,50</precio_unidad>
+                <precio_total>61,00</precio_total>
+            </cursode_html>
+            <coste>
+                <subtotal>86,12</subtotal>
+                <iva21>18,09</iva21>
+                <total>104,21</total>
+            </coste>
+        </articulos>
+    </datos_de_compra>
+</factura>

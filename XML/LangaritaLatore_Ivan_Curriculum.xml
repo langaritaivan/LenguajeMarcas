@@ -1,0 +1,23 @@
+<curriculum>
+    <datos_personales>
+        <nombre>Iván</nombre>
+        <apellidos>Langarita Latorre</apellidos>
+        <fecha_de_nacimiento>6/7/2006</fecha_de_nacimiento>
+        <domicilio>La Almunia De Doña Godina</domicilio>
+    </datos_personales>
+    <idiomas>
+        <idioma>Ingles</idioma>
+    </idiomas>
+    <contacto>
+        <numero>644 73 33 07</numero>
+        <correo>ivan.langarita2006@gmail.com</correo>
+    </contacto>
+    <exeriencia_pevia>
+        <experiencia>ayudar en el campo</experiencia>
+    </exeriencia_pevia>
+    <estudios>
+        <estudio fecha_inicio="2018" fecha_finalizacion="2022">ESO</estudio>
+        <estudio fecha_inicio="2022" fecha_finalizacion="2024">bachiller</estudio>
+        <estudio fecha_inicio="2024">cursando ASIR</estudio>
+    </estudios>
+</curriculum>

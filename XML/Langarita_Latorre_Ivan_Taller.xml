@@ -1,0 +1,36 @@
+<taller_de_reparacion>
+    <vehiculo>
+        <información_vehiculo>
+            <tipo>Coche</tipo>
+            <matricula>5678 CRR</matricula>
+            <marca>Peugeot modelo 308</marca>
+        </información_vehiculo>
+        <informe_reparacion>
+            <reparo1>Cambio de aceite</reparo1>
+            <reparo2>Cambio de filtros</reparo2>
+            <tiempo_tardado unidad="minutos">40</tiempo_tardado>
+        </informe_reparacion>
+        <factura>
+            <ndefactura>nº A-1234</ndefactura>
+            <costo>110€</costo>
+            <forma_de_pago>Al contado</forma_de_pago>
+        </factura>
+    </vehiculo>
+    <vehiculo2>
+        <información_vehiculo>
+            <tipo>moto</tipo>
+            <matricula>9712 AMZ</matricula>
+            <marca>Honda modelo CB</marca>
+        </información_vehiculo>
+        <informe_reparacion>
+            <reparo1>Reconstrucción chasis</reparo1>
+            <tiempo_tardado unidad="dias">3</tiempo_tardado>
+        </informe_reparacion>
+        <factura>
+            <ndefactura>nº M-345</ndefactura>
+            <costo>1200€</costo>
+            <forma_de_pago>Medialte transferencia</forma_de_pago>
+        </factura>
+    </vehiculo2>
+
+</taller_de_reparacion>

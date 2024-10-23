@@ -1,0 +1,49 @@
+<recetas>
+    <receta>
+        <nombre>Pizza</nombre>
+        <dificultad>Medio</dificultad>
+        <tiempo_necesario unidad="minutos" >40</tiempo_necesario>
+        <requisitos_minimos>
+            <requisito>horno</requisito>
+            <requisito>masa</requisito>
+            <requisito>micro</requisito>
+        </requisitos_minimos>
+        <ingredientes> 
+            <ingrediente unidad="100g">masa</ingrediente>
+            <ingrediente unidad="1l">tomate</ingrediente>
+            <ingrediente unidad="1l">agua</ingrediente>
+            <ingrediente unidad="50g">queso</ingrediente>
+            <ingrediente unidad="100g">carne picada</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso orden="1">poner el tomate</paso>
+            <paso orden="2">hechar el queso</paso>
+            <paso orden="3">hechar ña carne picada</paso>
+            <paso orden="4">meter al orno por 30min</paso>
+        </pasos>
+    </receta>
+    <receta>
+        <nombre>Hambirguesa</nombre>
+        <dificultad>Facil</dificultad>
+        <tiempo_necesario unidad="minutos">20</tiempo_necesario>
+        <requisitos_minimos>
+            <requisito>encimera</requisito>
+            <requisito>ingredientes basicos</requisito>
+        </requisitos_minimos>
+        <ingredientes>
+            <ingrediente unidad="1 pan de hamburguesa">pan</ingrediente>
+            <ingrediente unidad="1 rodaja">tomate</ingrediente>
+            <ingrediente unidad="3 hojas de lechuga">lechuga</ingrediente>
+            <ingrediente unidad="1 loncha">queso</ingrediente>
+            <ingrediente unidad="200g">carne</ingrediente>
+        </ingredientes>
+        <pasos>
+            <paso orden="1">hacer la carne</paso>
+            <paso orden="2">poner el pan en el plato</paso>
+            <paso orden="3">poner la carne</paso>
+            <paso orden="4">la rodaja de tomate</paso>
+            <paso orden="5">poner loncha de queso</paso>
+            <paso orden="6">poner las hojas de lechuga</paso>
+        </pasos>
+    </receta>
+</recetas>

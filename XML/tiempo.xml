@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tempo>
+    <city name="Zaragoza">
+    <current>
+    <day>Viernes</day>
+    <time>13:00</time>
+    <condicion>parcialmente nublado</condicion>
+    <temperatura>19</temperatura>
+    <precipitaciones>0</precipitaciones>
+    <humedad>48</humedad>
+    <viento>32</viento>
+    </current>
+    <forecast>
+        <day name="Viernes">
+            <condicion>nublado</condicion>
+            <temperatura_max uc="centigrados">21</temperatura_max>
+            <temperatura_min uc="centigrados">11</temperatura_min>
+        </day>
+        <day name="Domingo">
+            <condicion>nublado</condicion>
+            <temperatura_max uc="centigrados">29</temperatura_max>
+            <temperatura_min uc="centigrados">12</temperatura_min>
+        </day>
+        <day name="Lunes">
+            <condicion>nublado</condicion>
+            <temperatura_max uc="centigrados">26</temperatura_max>
+            <temperatura_min uc="centigrados">14</temperatura_min>
+        </day>
+        <day name="Martes">
+            <condicion>soleado</condicion>
+            <temperatura_max uc="centigrados">31</temperatura_max>
+            <temperatura_min uc="centigrados">15</temperatura_min>
+        </day>
+        <day name="Miercoles">
+            <condicion>parcialmente nublado</condicion>
+            <temperatura_max uc="centigrados">29</temperatura_max>
+            <temperatura_min uc="centigrados">16</temperatura_min>
+        </day>
+        <day name="Jueves">
+            <condicion>parcialmente nublado</condicion>
+            <temperatura_max uc="centigrados">27</temperatura_max>
+            <temperatura_min uc="centigrados">17</temperatura_min>
+        </day>
+    </forecast>
+    </city>
+</tempo>
