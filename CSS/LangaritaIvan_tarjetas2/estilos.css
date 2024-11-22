@@ -63,4 +63,13 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 10px;
+    color: #2289ff;
+}
+
+.logo{
+    height: 15px;
+    width: 15px;
 }
