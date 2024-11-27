@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0px;
+}
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    height: 50px;
 }
 
 body {
     background-color: black;
     color: white;
+    font-family: "Orbitron", sans-serif;
 }
 
 .enlace{
@@ -27,17 +34,57 @@ a{
     text-decoration: none;
 }
 
-section {
+.inicio {
     background-image: url('./img/BO6.jpg');
-    height: 400px;
+    height: 500px;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    width: 100%;
+}
+
+section{
+    height: 500px;
     width: 100%;
 }
 
 .info {
     border: solid 1px;
     height: auto;
-    width: 200px;
-    margin: 5px;
+    width: 250px;
+    margin: 20px;
+    float: left;
+    padding: 5px;
+}
+
+.nombre {
+    float: right;
+    border: solid 1px;
+    margin: 20px;
+    padding: 5px;
+}
+
+footer {
+    font-family: "Orbitron", sans-serif;
+    color: rgb(147, 148, 148);
+    font-size: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.color {
+    color: aqua;
+    font-size: 100px;
+}
+
+.armeria {
+    background-image: url('./img/SVA.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.info {
+    border: solid 1px;
+    
 }
