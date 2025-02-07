@@ -1,0 +1,174 @@
+<resultado>
+  <totalCount>7</totalCount>
+  <start>0</start>
+  <rows>50</rows>
+  <icon>farmaciaguardia</icon>
+  <result>
+    <equipamiento>
+      <id>8860</id>
+      <title>Farmacia Artal Lerín, Ana Cristina</title>
+      <telefonos>976226203</telefonos>
+      <email>info@somostufarmacia.es </email>
+      <horario>Lunes a Domingo 24 horas</horario>
+      <descripcion>
+        <![CDATA[<p>Red comercios amigables</p>
+        ]]>
+      </descripcion>
+      <servicios>
+        <![CDATA[<p>Farmacia, parafarmacia y ortopedia</p>
+        ]]>
+      </servicios>
+      <url>http://www.somostufarmacia.es </url>
+      <clasificacion>HorarioAmpliado</clasificacion>
+      <calle>Pº. de Sagasta, 8</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.8858667199718896,41.646146396697176</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Gran Vía</sector>
+        </guardia>
+      </guardia>
+      <type>
+        "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+    <equipamiento>
+      <id>8696</id>
+      <title>Farmacia Aznar Olivan, María Paz</title>
+      <telefonos>976282344</telefonos>
+      <horario>Lunes a Sábado excepto festivos de 9:30 a 22:00 h</horario>
+      <clasificacion>HorarioAmpliado</clasificacion>
+      <calle>Avda. José Anselmo Clave, 37-45</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.8935606577652201,41.64913204322372</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Delicias</sector>
+        </guardia>
+      </guardia>
+      <type>
+        "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+    <equipamiento>
+      <id>8711</id>
+      <title>Farmacia Blasco Torrijo, María Carmen</title>
+      <telefonos>976429849</telefonos>
+      <horario>Sábados horario de mañanas de 9:30 a 13:30 h. (Junio,julio y agosto: 9:15 a 13:45 h.)</horario>
+      <clasificacion>HorarioAmpliado</clasificacion>
+      <calle>Avda. Compromiso de Caspe, 115</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.8594760956576328,41.64506114261371</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Las Fuentes</sector>
+        </guardia>
+      </guardia>
+      <type>
+        "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+    <equipamiento>
+      <id>8781</id>
+      <title>Farmacia Garcia-Vela Grau, Maria</title>
+      <telefonos>976755531</telefonos>
+      <horario>Sábados horario de mañanas de 9:30 a 13:30 h. (Junio,julio y agosto: 9:15 a 13:45 h.)</horario>
+      <clasificacion>HorarioAmpliado</clasificacion>
+      <calle>C/ Federico Ozanam, 55-57</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.9334315123306206,41.640599533913296</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Delicias-Valdefierro</sector>
+        </guardia>
+      </guardia>
+      <type>
+        "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+    <equipamiento>
+      <id>8787</id>
+      <title>Farmacia Gil de Miguel, Ignacio</title>
+      <telefonos>976272952</telefonos>
+      <calle>C/ Luis Sallenave, 13</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.8839804241404576,41.63765943643928</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Torrero-Esquina a Pº Cuéllar</sector>
+        </guardia>
+      </guardia>
+      <type>"http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+    <equipamiento>
+      <id>8801</id>
+      <title>Farmacia Hernández Barrutia, Carlos</title>
+      <telefonos>976338069</telefonos>
+      <horario>Lunes a Domingo 24 horas</horario>
+      <clasificacion>HorarioAmpliado</clasificacion>
+      <calle>Vía Hispanidad, 136-</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.920447928588225,41.65563466959929</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Delicias-Esquina C/ Biarritz-Urb. La Bombarda</sector>
+        </guardia>
+      </guardia>
+      <type>
+        "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+    <equipamiento>
+      <id>8908</id>
+      <title>Farmacia Arbués Betore, Sara</title>
+      <telefonos>976292938</telefonos>
+      <email>bjsanchez2006@telefonica.net</email>
+      <horario>Sábados horario de mañanas de 9:30 a 13:30 h. (Junio,julio y agosto: 9:15 a 13:45 h.)</horario>
+      <descripcion>
+        <![CDATA[<p>Red de Comercios Amigables</p>
+        ]]>
+      </descripcion>
+      <clasificacion>HorarioAmpliado</clasificacion>
+      <calle>Avda. Cataluña, 20</calle>
+      <geometry>
+        <type>Point</type>
+        <coordinates>-0.8717189912328043,41.65900374176336</coordinates>
+      </geometry>
+      <guardia>
+        <guardia>
+          <fecha>2024-02-07T00:00:00Z</fecha>
+          <turno>T-43</turno>
+          <horario>Abiertas de 9:30 h. a 9:30 h. del día Siguiente</horario>
+          <sector>Sector Avda. Cataluña</sector>
+        </guardia>
+      </guardia>
+      <type>
+        "http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaHorarioAmpliado","http://www.zaragoza.es/sede/portal/skos/vocab/FarmaciaGuardia/2024-02-07"</type>
+    </equipamiento>
+  </result>
+</resultado>
