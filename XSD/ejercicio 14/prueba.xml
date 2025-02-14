@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified"
+  elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="bdproductos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="producto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="codigo" type="xs:string"/>
+              <xs:element name="categoria" type="xs:string"/>
+              <xs:element name="iva" type="xs:unsignedByte"/>
+              <xs:element name="precio" type="xs:decimal"/>
+              <xs:element name="descuento" type="xs:unsignedByte"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="Tlongitud">
+  <xs:restriction base="xs:string">
+  <xs:minLength value="1"></xs:minLength>
+  <xs:maxLength value="4"></xs:maxLength>
+  </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Tlongitud1">
+  <xs:restriction base="xs:string">
+  <xs:pattern value="[A-Z]{1}(\d){3}"></xs:pattern>
+  </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Tcat1">
+  <xs:restriction base="xs:string">
+  <xs:enumeration value="A"></xs:enumeration>
+  <xs:enumeration value="B"></xs:enumeration>
+  <xs:enumeration value="C"></xs:enumeration>
+  <xs:enumeration value="D"></xs:enumeration>
+  <xs:enumeration value="E"></xs:enumeration>
+  </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
