@@ -4,84 +4,70 @@
     <xs:sequence>
       <xs:element name="direccion" type="xs:string"/>
       <xs:element name="metros" type="xs:int"/>
-      <xs:element name="precio" type="xs:int"/>
+      <xs:element name="precio" type="xs:decimal"/>
     </xs:sequence>
     <xs:attribute name="id_vendedor" type="xs:string" use="required"/>
     <xs:attribute name="fecha" type="xs:date" use="optional"/>
   </xs:complexType>
-  <xs:complexType name="vivienda">
-    <xs:complexContent>
-      <xs:extension base="inmueble">
-        <xs:sequence>
-          <xs:element name="tipo">
-            <xs:simpleType>
-              <xs:restriction base="xs:string">
-                <xs:enumeration value="piso"/>
-                <xs:enumeration value="atico"/>
-                <xs:enumeration value="unifamiliar"/>
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:element>
-          <xs:element name="num_habitaciones">
-            <xs:simpleType>
-              <xs:restriction base="xs:int">
-                <xs:minInclusive value="1" />
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:element>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="garaje">
-    <xs:complexContent>
-      <xs:extension base="inmueble">
-        <xs:sequence>
-          <xs:element name="plaza" type="xs:string" minOccurs="0"/>
-        </xs:sequence>
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:complexType name="trastero">
-    <xs:complexContent>
-      <xs:extension base="inmueble"/>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="inmobiliaria">
+  <xs:element name="vendedores">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="vendedores">
+        <xs:element name="vendedor" maxOccurs="5" minOccurs="1">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="vendedor" maxOccurs="5">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="nombre" type="xs:string"/>
-                    <xs:element name="apellidos" type="xs:string"/>
-                    <xs:element name="telefono">
-                      <xs:simpleType>
-                        <xs:restriction base="xs:string">
-                          <xs:length value="9"/>
-                        </xs:restriction>
-                      </xs:simpleType>
-                    </xs:element>
-                  </xs:sequence>
-                  <xs:attribute name="id" type="xs:string" use="required"/>
-                </xs:complexType>
-              </xs:element>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellidos" type="xs:string"/>
+              <xs:element name="telefono" type="xs:string"/>
             </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="inmuebles">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="vivienda" type="vivienda" maxOccurs="unbounded" minOccurs="0"/>
-              <xs:element name="garaje" type="garaje" maxOccurs="unbounded" minOccurs="0"/>
-              <xs:element name="trastero" type="trastero" maxOccurs="unbounded" minOccurs="0"/>
-            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="inmuebles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="vivienda" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element name="garaje" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element name="trastero" type="xs:string" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="vivienda">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="inmueble">
+          <xs:sequence>
+            <xs:element name="tipo" type="xs:string"/>
+            <xs:element name="num_habitaciones" type="xs:int"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="garaje">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="inmueble">
+          <xs:sequence>
+            <xs:element name="plaza" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="trastero">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="inmueble"/>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="telefonoType">
+    <xs:restriction base="xs:string">
+      <xs:length value="9"/>
+      <xs:pattern value="\d{9}"/>
+    </xs:restriction>
+  </xs:simpleType>
 </xs:schema>
