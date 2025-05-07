@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <xsl:template match="/libreria/libros">
+
+    <html>
+
+      <head></head>
+      <body>
+        <table>
+
+          <tr>
+            <th colspan="6" style="background-color:#00ff00">Productos</th>
+          </tr>
+          <tr style="background-color:#ffff00">
+            <th>Categoría</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Total</th>
+          </tr>
+          <xsl:for-each select="producto">
+            <tr style="background-color:#00ffff">
+              <xsl:variable name="categoria">
+                <xsl:value-of select="@cat" />
+              </xsl:variable>
+              <!--
+                    <xsl:for-each select="../../categorias/categoria">
+                        <xsl:if test="@codigo = $categoria">
+                           <td> <xsl:value-of select="@Descripcion" /></td>
+                        </xsl:if>
+                    </xsl:for-each>
+                    -->
+              <td>
+                <xsl:value-of select="//categoria[@codigo=$categoria]/@Descripcion" />
+              </td>
+
+              <td>
+                <xsl:value-of select="titulo" />
+              </td>
+              <td>
+                <xsl:value-of select="autor" />
+              </td>
+
+              <xsl:choose>
+                <xsl:when test="precio='NC'">
+                  <td>
+                    <xsl:text>No Consta</xsl:text>
+                  </td>
+                            <td>
+                    <xsl:value-of select="cantidad" />
+                  </td>
+                            <td>
+                    <xsl:text>Desconocido</xsl:text>
+                  </td>
+                </xsl:when>
+                <xsl:otherwise>
+                  <td>
+                    <xsl:value-of select="precio" />
+                  </td>
+                            <td>
+                    <xsl:value-of select="cantidad" />
+                  </td>
+                            <td>
+                    <xsl:value-of select="precio*cantidad" />
+                  </td>
+                </xsl:otherwise>
+              </xsl:choose>
+            </tr>
+          </xsl:for-each>
+
+        </table>
+
+      </body>
+
+    </html>
+
+  </xsl:template>
+
+
+</xsl:stylesheet>
